@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Navbar</title>
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+       
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-nav">
+        <div class="container">
+            <!-- Logo/Image -->
+            <a class="navbar-brand" href="index.html">
+                <img src="images/americanhorizstackedlogool.png" alt="Logo" class="navbar-logo">
+            </a>
+            
+            <!-- Hamburger button for mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Navbar content -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <!-- Left side links with dropdowns -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 left">
+                    <!-- Link 1 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" style="color: white;font-weight: 100;font-size: 12px;" href="buy.html" id="navbarDropdown1">
+                            BUY
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <li><a class="dropdown-item" href="#">Main Home</a></li>
+                            <li><a class="dropdown-item" href="#">Secondary Home</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Special Home</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Link 2 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" style="color: white;font-weight: 100;font-size: 12px;" href="Sell.html" id="navbarDropdown2">
+                            SELL
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                            <li><a class="dropdown-item" href="#">New Products</a></li>
+                            <li><a class="dropdown-item" href="#">Best Sellers</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Special Offers</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Link 3 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" style="color: white;font-weight: 100;font-size: 12px;" href="" id="navbarDropdown3">
+                            RENT
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                            <li><a class="dropdown-item" href="#">Consulting</a></li>
+                            <li><a class="dropdown-item" href="#">Design</a></li>
+                            <li><a class="dropdown-item" href="#">Development</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Link 4 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" style="color: white;font-weight: 100;font-size: 12px;" href="invest.html" id="navbarDropdown4">
+                            INVEST
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                            <li><a class="dropdown-item" href="#">Our Story</a></li>
+                            <li><a class="dropdown-item" href="#">Team</a></li>
+                            <li><a class="dropdown-item" href="#">Careers</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Link 5 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" style="color: white;font-weight: 100;font-size: 12px;" href="#" id="navbarDropdown5">
+                            MARKET REPORTS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown5">
+                            <li><a class="dropdown-item" href="#">Latest Posts</a></li>
+                            <li><a class="dropdown-item" href="#">Categories</a></li>
+                            <li><a class="dropdown-item" href="#">Archives</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Link 6 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" style="color: white;font-weight: 100;font-size: 12px;" href="#" id="navbarDropdown6">
+                            JOIN US
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown6">
+                            <li><a class="dropdown-item" href="#">Gallery</a></li>
+                            <li><a class="dropdown-item" href="#">Projects</a></li>
+                            <li><a class="dropdown-item" href="#">Case Studies</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Link 7 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" style="color: white;font-weight: 100;font-size: 12px;" href="#" id="navbarDropdown7">
+                            ABOUT US
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown7">
+                            <li><a class="dropdown-item" href="#">Guides</a></li>
+                            <li><a class="dropdown-item" href="#">Downloads</a></li>
+                            <li><a class="dropdown-item" href="#">Tools</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Link 8 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" style="color: white;font-weight: 100;font-size: 12px;" href="#" id="navbarDropdown8">
+                            CONTACT US
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown8">
+                            <li><a class="dropdown-item" href="#">Email Us</a></li>
+                            <li><a class="dropdown-item" href="#">Phone</a></li>
+                            <li><a class="dropdown-item" href="#">Office Locations</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <!-- Right side links -->
+                <ul class="navbar-nav ms-auto left">
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white;font-weight: 100;font-size: 12px;" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: white;font-weight: 100;font-size: 12px;" href="#">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid home-bg">
+        <div class="container">
+        <div class="row">
+     <h1 class="really-worth">What’s Your Home Really Worth?</h1>
+     <h2 class="find-out">FIND OUT FAST AND FREE</h2>
+     <h2 class="enter-address">Enter your address below</h2>
+     <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <form class="d-flex">
+                    <div class="row g-0 w-100 ">
+                        <!-- Left side (10 columns) - Search input -->
+                        <div class="col-10">
+                            <input type="search" class="form-control" placeholder="Enter your street address" aria-label="Search" style="height: 65px;border: 1px solid red;border-top-right-radius:0px;border-bottom-right-radius: 0px;">
+                        </div>
+                        <!-- Right side (2 columns) - Red button -->
+                        <div class="col-2">
+                            <button class="btn btn-danger w-100" type="submit" style="height: 65px; border-top-left-radius: 0px;border-bottom-left-radius:0px ;" >
+                                <i class="bi bi-search"></i> Next
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+        </div>
+
+        <hr style="height:2px;border-width:0;color:white;background-color:white;margin-top: 60px;">
+        <div class="row">
+            <div class="col-4 col-sm-4 col-md-4 home-serch">
+               <img src="icons/serch.png "  class="home-serch-icon">
+               <h2 class="step-one">Step 1</h2>
+               <h2 class="property-address">Enter Property Address</h2>
+               
+            </div>
+
+            <div class="col-4 col-sm-4 col-md-4  home-serch">
+                <img src="icons/serch.png "  class="home-serch-icon">
+                <h2 class="step-one">Step 1</h2>
+                <h2 class="property-address">Enter Property Address</h2>
+                
+             </div>
+
+             <div class="col-4 col-sm-4 col-md-4 home-serch">
+                <img src="icons/serch.png "  class="home-serch-icon">
+                <h2 class="step-one">Step 1</h2>
+                <h2 class="property-address">Enter Property Address</h2>
+                
+             </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid footer-bg">
+    <div class="container">
+      <div class="row">
+       <div class="col-md-5">
+         <img src="images/american-real-stste.webp" class="real-state-logo">
+         <img src="images/american-real-stste.webp" class="real-state-logo1">
+         <h2 class="american-era">American Real Estate, ERA Powered</h2>
+         <h2 class="american-era-powered">Jaime Hensley</h2>
+         <h2 class="american-era-powered">marketing@americanrealestate.com</h2>
+         <h2 class="american-era-powered">HQ: 4351 Crow Rd, Beaumont, Texas 77706 USA</h2>
+         <h2 class="about-services">Information About Brokerage Services</h2>
+         <h2 class="get-my-app">Get My App</h2>
+         <img src="images/qr-scanner.png" class="scanner">
+         <h2 class="lofty-inc">Powered by Lofty Inc. Copyright 2025. All Rights Reserved.</h2>
+         
+       </div>
+       <div class="col-md-2">
+           <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="#" id="dropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;font-weight: 100;margin-top: 13px;">
+               Buy
+           </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown1">
+           <li><a class="dropdown-item " style="color: black;" href="#">Profile</a></li>
+           <li><a class="dropdown-item" style="color: black;" href="#">Settings</a></li>
+           <!-- <li><hr class="dropdown-divider"></li> -->
+           <li><a class="dropdown-item"style="color: black;" href="#">Sign Out</a></li>
+           </ul>
+           </li>
+         </div>
+
+         <div class="col-md-2">
+           <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="#" id="dropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;font-weight: 100;margin-top: 13px;">
+               RENT
+           </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown1">
+           <li><a class="dropdown-item " style="color: black;" href="#">Profile</a></li>
+           <li><a class="dropdown-item" style="color: black;" href="#">Settings</a></li>
+           <!-- <li><hr class="dropdown-divider"></li> -->
+           <li><a class="dropdown-item"style="color: black;" href="#">Sign Out</a></li>
+           </ul>
+           </li>
+         </div>
+
+         <div class="col-md-3">
+           <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="#" id="dropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;font-weight: 100;margin-top: 13px;">
+               SELL
+           </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown1">
+           <li><a class="dropdown-item " style="color: black;" href="#">Profile</a></li>
+           <li><a class="dropdown-item" style="color: black;" href="#">Settings</a></li>
+           <!-- <li><hr class="dropdown-divider"></li> -->
+           <li><a class="dropdown-item"style="color: black;" href="#">Sign Out</a></li>
+           </ul>
+           </li>
+         </div>
+          
+         <div class="row">
+           <div class="col-md-12">
+           
+             <ul class="parent-list">
+           <li class="list-child">Term of Service & Privacy Policy</li>
+           <li class="list-child">Cookie Policy</li>
+           <li class="list-child">Cookie Prefences</li>
+           <li class="list-child">Property Listnings</li>
+           <li class="list-child">Sitemap</li>
+           <li class="list-child">Accessibility</li>
+         </ul>
+         <h2 class="print-out">Information contained on the computer print-outs of the Multiple Listing Service (MLS) of the HOUSTON REALTORS® INFORMATION SERVICE (HRIS) is furnished by MLS Participants for dissemination to other MLS Participants, for their exclusive use, and should not be relied upon by Buyer/Tenant or any other person. There is no express or implied warranty by HAR or MLS as to the accuracy of such information, which should be independently verified by Buyer/Tenant or such other person. MLS does not verify the information and disclaims any responsibility for its accuracy.</h2>
+         <h2 class="print-out">IDX information is provided exclusively for personal, non-commercial use, and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. Information is deemed reliable but not guaranteed. The listing broker’s offer of compensation is made only to participants of the MLS where the listing is filed.</h2>
+         <h2 class="print-out">IDX information is provided exclusively for consumers’ personal, non-commercial use and that it may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. Information deemed reliable but not guaranteed to be accurate. Listing information updated daily.</h2>
+           </div>
+         </div>
+
+
+
+
+         
+   </div>
+ </div>
+
+
+
+   
+</body>
+</html>

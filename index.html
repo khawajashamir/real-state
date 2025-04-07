@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap 5 Navbar</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-nav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/americanhorizstackedlogool.png" alt="Logo" class="navbar-logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar content -->
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <!-- Left side links with dropdowns -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 left">
+          <!-- Link 1 -->
+          <li class="nav-item dropdown">
+            <a class="nav-link" style="color: white;font-weight: 100;font-size: 12px;" href="buy.html"
+              id="navbarDropdown1">
+              BUY
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+              <li><a class="dropdown-item" href="#">Main Home</a></li>
+              <li><a class="dropdown-item" href="#">Secondary Home</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Special Home</a></li>
+            </ul>
+          </li>
+
+          <!-- Link 2 -->
+          <li class="nav-item dropdown">
+            <a class="nav-link" style="color: white;font-weight: 100;font-size: 12px;" href="Sell.html"
+              id="navbarDropdown2">
+              SELL
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+              <li><a class="dropdown-item" href="#">New Products</a></li>
+              <li><a class="dropdown-item" href="#">Best Sellers</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Special Offers</a></li>
+            </ul>
+          </li>
+
+          <!-- Link 3 -->
+          <li class="nav-item dropdown">
+            <a class="nav-link" style="color: white;font-weight: 100;font-size: 12px;" href="" id="navbarDropdown3">
+              RENT
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+              <li><a class="dropdown-item" href="#">Consulting</a></li>
+              <li><a class="dropdown-item" href="#">Design</a></li>
+              <li><a class="dropdown-item" href="#">Development</a></li>
+            </ul>
+          </li>
+
+          <!-- Link 4 -->
+          <li class="nav-item dropdown">
+            <a class="nav-link" style="color: white;font-weight: 100;font-size: 12px;" href="invest.html"
+              id="navbarDropdown4">
+              INVEST
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
+              <li><a class="dropdown-item" href="#">Our Story</a></li>
+              <li><a class="dropdown-item" href="#">Team</a></li>
+              <li><a class="dropdown-item" href="#">Careers</a></li>
+            </ul>
+          </li>
+
+          <!-- Link 5 -->
+          <li class="nav-item dropdown">
+            <a class="nav-link" style="color: white;font-weight: 100;font-size: 12px;" href="#" id="navbarDropdown5">
+              MARKET REPORTS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown5">
+              <li><a class="dropdown-item" href="#">Latest Posts</a></li>
+              <li><a class="dropdown-item" href="#">Categories</a></li>
+              <li><a class="dropdown-item" href="#">Archives</a></li>
+            </ul>
+          </li>
+
+          <!-- Link 6 -->
+          <li class="nav-item dropdown">
+            <a class="nav-link" style="color: white;font-weight: 100;font-size: 12px;" href="#" id="navbarDropdown6">
+              JOIN US
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown6">
+              <li><a class="dropdown-item" href="#">Gallery</a></li>
+              <li><a class="dropdown-item" href="#">Projects</a></li>
+              <li><a class="dropdown-item" href="#">Case Studies</a></li>
+            </ul>
+          </li>
+
+          <!-- Link 7 -->
+          <li class="nav-item dropdown">
+            <a class="nav-link" style="color: white;font-weight: 100;font-size: 12px;" href="#" id="navbarDropdown7">
+              ABOUT US
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown7">
+              <li><a class="dropdown-item" href="#">Guides</a></li>
+              <li><a class="dropdown-item" href="#">Downloads</a></li>
+              <li><a class="dropdown-item" href="#">Tools</a></li>
+            </ul>
+          </li>
+
+          <!-- Link 8 -->
+          <li class="nav-item dropdown">
+            <a class="nav-link" style="color: white;font-weight: 100;font-size: 12px;" href="#" id="navbarDropdown8">
+              CONTACT US
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown8">
+              <li><a class="dropdown-item" href="#">Email Us</a></li>
+              <li><a class="dropdown-item" href="#">Phone</a></li>
+              <li><a class="dropdown-item" href="#">Office Locations</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <!-- Right side links -->
+        <ul class="navbar-nav ms-auto left">
+          <li class="nav-item">
+            <a class="nav-link" style="color: white;font-weight: 100;font-size: 12px;" href="#">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white;font-weight: 100;font-size: 12px;" href="#">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container-fluid bg-image">
+    <div class="row">
+      <h1 class="american-state">American Real Estate, ERA Powered</h1>
+      <h2 class="service-today">How can we be of service today?</h2>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row bg-para">
+      <div class="col-md-6">
+        <input type="search" class="serch-para">
+      </div>
+
+      <div class="col-md-6">
+
+
+      </div>
+    </div>
+
+    <div class="row">
+      <h1 class="real-estate">American Real Estate, ERA Powered</h1>
+      <h2 class="assist">**We are here 24/7 to assist you with your home buying and selling needs from start to
+        finish.**</h2>
+      <div class="col-sm-4 col-md-4 parent-days">
+        <h1 class="days">36 Days</h1>
+        <h2 class="sell-homes">We Sell Homes Faster</h2>
+      </div>
+
+      <div class="col-sm-4 col-md-4 parent-days">
+        <h1 class="days">6% More</h1>
+        <h2 class="sell-homes">Sellers Net</h2>
+      </div>
+
+      <div class="col-sm-4 col-md-4 parent-days">
+        <h1 class="days">99.8%</h1>
+        <h2 class="sell-homes">Customer Satisfaction Rate</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="container">
+      <h1 class="market-report">Featured Market Reports</h1>
+      <div class="row">
+        <div class="owl-carousel owl-theme ">
+
+          <div class="item col-md-3 w-100"><img src="images/beamount.webp" class="crousel-img"></div>
+          <div class="item col-md-3 w-100"><img src="images/lufkin.webp" class="crousel-img"></div>
+          <div class="item col-md-3 w-100"><img src="images/lumberton.webp" class="crousel-img"></div>
+          <div class="item col-md-3 w-100"><img src="images/nacogdoches.webp" class="crousel-img"></div>
+          <div class="item col-md-3 w-100"><img src="images/notherland.webp" class="crousel-img"></div>
+          <div class="item col-md-3 w-100"><img src="images/orange.webp" class="crousel-img"></div>
+          <div class="item col-md-3 w-100"><img src="images/port aurthor.webp" class="crousel-img"></div>
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+  <div class="container-fluid work-bg">
+    <div class="row">
+      <h1 class="work-with">WORK WITH US</h1>
+      <h2 class="reach-out">Reach out to an expert real estate agent today. Dive into the world of Texas real estate
+        with guidance from our award-winning team.</h2>
+      <div class="parent-btn">
+        <button class="contact-btn">CONTACT</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 bg-family ">
+      </div>
+
+      <div class="col-md-6">
+        <h1 class="BUYER-SERVICES">BUYER SERVICES</h1>
+        <h2 class="your-dream">We're here to help you find the home of your dreams. With a team of experts guiding you
+          every step of the way, our extensive knowledge and experience will ensure you have the best home buying
+          experience possible.</h2>
+        <div class="parent-home">
+          <button class="home-sale">Homes for Sale</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <h1 class="BUYER-SERVICES">SELLER SERVICES</h1>
+        <h2 class="your-dream">We take the stress out of selling your home by providing a seamless experience from start
+          to finish. Our team will put you in the best position to market your home and sell it for the highest possible
+          price.</h2>
+        <div class="parent-home">
+          <button class="home-sale">Sell My Home</button>
+        </div>
+      </div>
+      <div class="col-md-6 bg-hand">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 bg-leptop">
+      </div>
+      <div class="col-md-6 bg-col">
+        <h1 class="REALTOR-SERVICES">REALTOR SERVICES </h1>
+        <h2 class="Realtors-find">Realtors find our comprehensive suite of tools, personalized training, exceptional
+          service, and LOCAL support to be an effortless and powerful engine that not only sustains their business
+          operations seamlessly but also fuels growth and innovation.</h2>
+        <div class="parent-home1">
+          <button class="join-family">JOIN OUR FAMILY</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container-fluid">
+    <div class="container">
+      <h1 class="Latest-Listings">Latest Listings</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="images/sofaset.jpg" class="sofa-set">
+          <h1 class="dollar">$349,000</h1>
+          <ul class="parent-requrements">
+            <li class="beds">3 Beds</li>
+            <li class="beds">3 Baths</li>
+            <li class="beds">1,927 SqFt</li>
+          </ul>
+          <h2 class="street">118 Westchester Street, Lufkin, TX 75901</h2>
+          <h2 class="era-powered">Listed by American Real Estate - ERA Powered</h2>
+        </div>
+
+        <div class="col-md-4">
+          <img src="images/greenhouse.webp" class="sofa-set">
+          <h1 class="dollar">$300,000</h1>
+          <ul class="parent-requrements">
+            <li class="beds">3 Beds</li>
+            <li class="beds">2 Baths</li>
+            <li class="beds">1,637 SqFt</li>
+          </ul>
+          <h2 class="street">701 Sandybrook, Lufkin, TX 75901</h2>
+          <h2 class="era-powered">Listed by American Real Estate - ERA Powered</h2>
+        </div>
+
+        <div class="col-md-4">
+          <img src="images/gate.webp" class="sofa-set">
+          <h1 class="dollar">$615,000</h1>
+          <ul class="parent-requrements">
+            <li class="beds">3 Beds</li>
+            <li class="beds">2 Baths</li>
+            <li class="beds">2,400 SqFt</li>
+          </ul>
+          <h2 class="street">4869 FM 2497, Lufkin, TX 75904</h2>
+          <h2 class="era-powered">Listed by American Real Estate - ERA Powered</h2>
+        </div>
+
+        <div class="more-parent">
+          <button class="btn-more">More</button>
+        </div>
+
+        <h1 class="work-with-us">WORK WITH US</h1>
+        <h2 class="agent-today">Reach out to an expert real estate agent today. Dive into the world of real estate with
+          guidance from our <br> devoted team. Your dream is within reach.</h2>
+
+        <div class="contact-parent">
+          <button class="btn-contact">CONTACT</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid footer-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <img src="images/american-real-stste.webp" class="real-state-logo">
+          <img src="images/american-real-stste.webp" class="real-state-logo1">
+          <h2 class="american-era">American Real Estate, ERA Powered</h2>
+          <h2 class="american-era-powered">Jaime Hensley</h2>
+          <h2 class="american-era-powered">marketing@americanrealestate.com</h2>
+          <h2 class="american-era-powered">HQ: 4351 Crow Rd, Beaumont, Texas 77706 USA</h2>
+          <h2 class="about-services">Information About Brokerage Services</h2>
+          <h2 class="get-my-app">Get My App</h2>
+          <img src="images/qr-scanner.png" class="scanner">
+          <h2 class="lofty-inc">Powered by Lofty Inc. Copyright 2025. All Rights Reserved.</h2>
+
+        </div>
+        <div class="col-md-2">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown1" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" style="color: white;font-weight: 100;margin-top: 13px;">
+              Buy
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown1">
+              <li><a class="dropdown-item " style="color: black;" href="#">Profile</a></li>
+              <li><a class="dropdown-item" style="color: black;" href="#">Settings</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <li><a class="dropdown-item" style="color: black;" href="#">Sign Out</a></li>
+            </ul>
+          </li>
+        </div>
+
+        <div class="col-md-2">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown1" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" style="color: white;font-weight: 100;margin-top: 13px;">
+              RENT
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown1">
+              <li><a class="dropdown-item " style="color: black;" href="#">Profile</a></li>
+              <li><a class="dropdown-item" style="color: black;" href="#">Settings</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <li><a class="dropdown-item" style="color: black;" href="#">Sign Out</a></li>
+            </ul>
+          </li>
+        </div>
+
+        <div class="col-md-3">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown1" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" style="color: white;font-weight: 100;margin-top: 13px;">
+              SELL
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown1">
+              <li><a class="dropdown-item " style="color: black;" href="#">Profile</a></li>
+              <li><a class="dropdown-item" style="color: black;" href="#">Settings</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <li><a class="dropdown-item" style="color: black;" href="#">Sign Out</a></li>
+            </ul>
+          </li>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+
+            <ul class="parent-list">
+              <li class="list-child">Term of Service & Privacy Policy</li>
+              <li class="list-child">Cookie Policy</li>
+              <li class="list-child">Cookie Prefences</li>
+              <li class="list-child">Property Listnings</li>
+              <li class="list-child">Sitemap</li>
+              <li class="list-child">Accessibility</li>
+            </ul>
+            <h2 class="print-out">Information contained on the computer print-outs of the Multiple Listing Service (MLS)
+              of the HOUSTON REALTORS® INFORMATION SERVICE (HRIS) is furnished by MLS Participants for dissemination to
+              other MLS Participants, for their exclusive use, and should not be relied upon by Buyer/Tenant or any
+              other person. There is no express or implied warranty by HAR or MLS as to the accuracy of such
+              information, which should be independently verified by Buyer/Tenant or such other person. MLS does not
+              verify the information and disclaims any responsibility for its accuracy.</h2>
+            <h2 class="print-out">IDX information is provided exclusively for personal, non-commercial use, and may not
+              be used for any purpose other than to identify prospective properties consumers may be interested in
+              purchasing. Information is deemed reliable but not guaranteed. The listing broker’s offer of compensation
+              is made only to participants of the MLS where the listing is filed.</h2>
+            <h2 class="print-out">IDX information is provided exclusively for consumers’ personal, non-commercial use
+              and that it may not be used for any purpose other than to identify prospective properties consumers may be
+              interested in purchasing. Information deemed reliable but not guaranteed to be accurate. Listing
+              information updated daily.</h2>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      $('.owl-carousel').owlCarousel({
+        loop: false,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 3
+          },
+          1000: {
+            items: 3
+          }
+        }
+      })
+    </script>
+</body>
+
+</html>
