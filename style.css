@@ -140,11 +140,21 @@ body {
     background-color: #45a049;
 }
 .american-state{
+    margin-left: 0px;
+    animation: upsanddown 3s forwards;
     color: white;
     font-size: 70px;
     font-weight: bold;
     /* font-weight: bold; */
     font-family: var(--mg-title-font);
+}
+@keyframes upsanddown{
+  0% {
+    margin-top: 1200px;
+  }
+  100% {
+    margin-top: 0px;
+  }
 }
 .service-today{
     color: white;
@@ -211,15 +221,30 @@ body {
     
 }
 .market-report{
+    /* margin-left: 0; */
+    animation: movetoright 3s forwards;
     font-size: 35px;
     color: #21356E;
     font-weight: bold;
     padding: 0px 0px 30px 0px;
 }
+@keyframes movetoright {
+    0% {
+      margin-left: -700px;
+    }
+    100% {
+      margin-left: 0px;
+    }
+  }
 .crousel-img{
     height: 350px;
     width: 100%;
-    
+    /* transform: translate3d(-213.985px, 0px, 0px); */
+    transition: transform 0.2s ease, box-shadow 0.4s ease; 
+    /* /* transform:scale(1.1); */
+}
+.crousel-img:hover{
+    transform:scale(1.1);
 }
 .work-bg{
     background-blend-mode: multiply;
@@ -281,6 +306,15 @@ body {
     font-weight: bold;
     color: #21356E;
     padding: 150px 40px 0px 40px;
+    animation: moverighttoleft 3s forwards;
+}
+@keyframes moverighttoleft{
+    0%{
+        margin-left: 800px;
+    }
+    100%{
+        margin-left: 0px;
+    }
 }
 .REALTOR-SERVICES{
     font-size: 25px;
@@ -301,14 +335,32 @@ body {
     padding: 10px 40px 0px 40px;
     font-weight: 200;
     line-height: 25px;
+    animation: moveright 3s forwards;
 }
+@keyframes moveright {
+    0% {
+      margin-left: 800px;
+    }
+    100% {
+      margin-left: 0px;
+    }
+  }
 .parent-home1{
     padding: 50px 0px 0px 40px;
 
 }
 .parent-home{
+    animation: left 3s forwards;
     padding: 20px 0px 0px 40px;
 
+}
+@keyframes left{
+    0%{
+        margin-left: 800px;
+    }
+    100%{
+        margin-left: 0px;
+    }
 }
 .join-family{
     height: 50px;
@@ -474,6 +526,8 @@ body {
 }
 
 .home-bg{
+    background-blend-mode: multiply;
+    background-color: #49453ec7;
     background-image: url(images/home-really.webp);
     /* height: 750px; */
     height: fit-content;
@@ -486,7 +540,7 @@ body {
     color: white;
     text-align: center;
     padding: 150px 0px 0px 0px;
-    font-weight: bold;
+    font-weight: 500;
 }
 .find-out{
     font-size: 18px;
@@ -496,7 +550,7 @@ body {
     text-align: center;
 }
 .enter-address{
-    font-size: 30px;
+    font-size: 28px;
     color: white;
     font-weight: 200;
     padding: 20px 0px 20px 0px;
@@ -538,14 +592,29 @@ body {
 }
 .step-one{
     font-size: 20px;
-    color: red;
+    color: #C12029;
+    text-align: center;
+    font-weight: 200;
+    padding: 30px 0px 0px 0px;
+}
+
+.step-one-one{
+    font-size: 20px;
+    color: white;
     text-align: center;
     font-weight: 200;
     padding: 30px 0px 0px 0px;
 }
 .property-address{
-    font-size: 15px;
-    color: red;
+    font-size: 14px;
+    color: #C12029;
+    text-align: center;
+    font-weight: 200;
+    padding: 0px 0px 40px 0px;
+}
+.property-address-home{
+    font-size: 14px;
+    color: white;
     text-align: center;
     font-weight: 200;
     padding: 0px 0px 40px 0px;
@@ -731,11 +800,12 @@ body {
         object-fit: cover;
     }
     .why-partner{
-        font-size: 35px;
+        font-size: 34px;
         color: #0D3277;
-        font-weight: bold;
+        font-weight: bolder;
         text-align: center;
         padding: 50px 0px 50px 0px;
+        font-family: sans-serif;
     }
 
 
@@ -785,18 +855,18 @@ body {
         margin-top: 70px;
     }
     .invest-confidence{
-        font-size: 25px;
+        font-size: 1.5em;
         color: white;
         text-align: center;
         font-weight:500;
         padding: 20px 0px 0px 0px;
     }
     .american-real{
-        font-size: 18px;
+        font-size: 1.13em;
         color: white;
         font-weight: 200;
         line-height: 30px;
-        /* padding: 0px 100px; */
+        font-family: sans-serif;
     }
     .parent-reach{
         text-align: center;
@@ -806,7 +876,11 @@ body {
         height: 50px;
         width: 200px;
         border: none;
-        color:#21356E ;
+        color:#0d3277 ;
+        background-color: #fff;
+        font-size: 16px;
+        line-height: 50px;
+        
     }
     .success-story{
         font-size: 35px;
@@ -985,6 +1059,11 @@ body {
         flex-grow: 0;
     flex-shrink: 0;
       }
+     .card{
+        b
+        color:rgba(193, 32, 41, 1);
+        height: 500px;
+     }
 
 
 
